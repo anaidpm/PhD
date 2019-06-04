@@ -7,7 +7,7 @@ from pprint import pprint as pp
 import json
 print("Done")
 
-#Initialize variables for Lymphoma data scraping
+#Initialize dataframe
 columns = ['PII','Title', 'Case']
 df_others = pd.DataFrame(columns=columns)
 numArticle = 1
